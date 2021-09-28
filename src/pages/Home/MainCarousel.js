@@ -1,12 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, {
-  EffectCoverflow,
-  Navigation,
-  Pagination,
-  Scrollbar,
-  Autoplay,
-} from "swiper";
+import SwiperCore, { Navigation, Pagination, Autoplay } from "swiper";
 // Import Swiper styles
 import "swiper/swiper.scss";
 import "swiper/components/effect-coverflow/effect-coverflow.scss";
@@ -23,7 +17,6 @@ function MainCarousel() {
         slidesPerView={1}
         loop
         pagination
-        autoplay
         speed={800}
         autoplay={{
           delay: 6000,

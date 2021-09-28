@@ -1,7 +1,6 @@
 import React from "react";
 import { ChevronDownIcon } from "@heroicons/react/outline";
 import { LocationMarkerIcon } from "@heroicons/react/solid";
-import banner from "../../assets/img/banner.jpg";
 import { useHistory } from "react-router-dom";
 
 function Landing() {
@@ -12,17 +11,6 @@ function Landing() {
   };
   return (
     <div>
-      {/* <lottie-player
-        src="https://assets9.lottiefiles.com/packages/lf20_pmYw5P.json"
-        background="transparent"
-        speed={0.5}
-        style={{
-          width: 300,
-          height: 300,
-        }}
-        loop
-        autoplay
-      ></lottie-player> */}
       {/* NAVBAR */}
       <div className="fixed top-0 py-4 w-full bg-white border-b border-gray-300">
         <div className="flex items-center justify-between max-w-screen-xl mx-auto">

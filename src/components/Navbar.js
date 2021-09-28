@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { LocationMarkerIcon, ShoppingBagIcon } from "@heroicons/react/solid";
-import { PlusIcon, XIcon, MinusIcon } from "@heroicons/react/solid";
+import { XIcon } from "@heroicons/react/solid";
 import product from "../assets/img/product.png";
 
 function Navbar() {

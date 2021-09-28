@@ -5,13 +5,7 @@ import stalls from "../../assets/img/categories/stalls.jpg";
 import restaurants from "../../assets/img/categories/restaurants.jpg";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/outline";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, {
-  EffectCoverflow,
-  Navigation,
-  Pagination,
-  Scrollbar,
-  Autoplay,
-} from "swiper";
+import SwiperCore, { Navigation, Pagination, Autoplay } from "swiper";
 // Import Swiper styles
 import "swiper/swiper.scss";
 import "swiper/components/effect-coverflow/effect-coverflow.scss";

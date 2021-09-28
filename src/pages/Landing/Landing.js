@@ -12,7 +12,7 @@ function Landing() {
   };
   return (
     <div>
-      <lottie-player
+      {/* <lottie-player
         src="https://assets9.lottiefiles.com/packages/lf20_pmYw5P.json"
         background="transparent"
         speed={0.5}
@@ -22,7 +22,7 @@ function Landing() {
         }}
         loop
         autoplay
-      ></lottie-player>
+      ></lottie-player> */}
       {/* NAVBAR */}
       <div className="fixed top-0 py-4 w-full bg-white border-b border-gray-300">
         <div className="flex items-center justify-between max-w-screen-xl mx-auto">
